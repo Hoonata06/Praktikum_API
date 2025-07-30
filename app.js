@@ -13,6 +13,9 @@ app.get('/', (req, res) => res.send('API aktif!'));
 const productRoutes = require('./routes/product.route');
 app.use('/api/products', productRoutes);
 app.use('/api/users', userRoutes);
+const transactionRoutes = require('./routes/transaction.route');
+app.use('/api/transactions', transactionRoutes);
+
 
 
 // Koneksi ke database

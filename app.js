@@ -9,10 +9,7 @@ app.use(express.json());
 app.get('/', (req, res) => res.send('API aktif!'));
 
 // tambahkan routing kamu dibawah sini
-<<<<<<< HEAD
 
-=======
->>>>>>> 3f85d28ba6a0e8eac8122422426b2abc85a0dc46
 
 
 // Koneksi ke database
